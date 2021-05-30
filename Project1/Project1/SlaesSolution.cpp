@@ -5,11 +5,13 @@
 using namespace std; //Підключення стандартного простору імен
 
 
-
 /// <summary>
-/// This Function calculate Time  .
+///<para>author:author Trafimov Makar</para>
 /// </summary>
 
+/// <summary>
+///<para> This Function calculate Time.</para>
+/// </summary>
 int Time(double eleased_ms)
 {
 	auto begin = std::chrono::steady_clock::now();
