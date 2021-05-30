@@ -36,11 +36,17 @@ int main()
 	switch (Solu)
 	{
 	case '1':
+		/// <summary>
+		///<para> This Funñtion calculates the Cramers method.</para>
+		/// </summary>
 		main1();
 		Time(eleased_ms);
 		break;
 	case'2':
 		main2();
+		/// <summary>
+		///<para> This Funñtion calculates the Gauss method.</para>
+		/// </summary>
 		Time(eleased_ms);
 		break;
 	}
