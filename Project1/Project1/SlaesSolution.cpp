@@ -7,10 +7,10 @@ using namespace std; //Підключення стандартного простору імен
 int main()
 {
 	setlocale(LC_ALL, "Russian");
-	char chooms;
-	cout << "chooms 1.2.3" << endl;
-	cin >> chooms;
-	switch (chooms)
+	char Solu;
+	cout << "Solution Method 1-Cramers.2-Gaus.3-Matrixs(choose number)" << endl;
+	cin >> Solu;
+	switch (Solu)
 	{
 	case '1':
 		main1();
