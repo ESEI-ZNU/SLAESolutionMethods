@@ -7,6 +7,10 @@ float Matrix[N][N + 1], x[N];
 float temp, s;
 int i, j, k;
 
+/// <summary>
+///<para> vyvodim matritsu.</para>
+/// </summary>
+
 void cinMat() {
 	cout << "Vvedite matritsu na " << N << " strochiki i " << N + 1 << " stolbtsa" << endl;
 	//1
@@ -18,8 +22,10 @@ void cinMat() {
 	}
 }
 
+/// <summary>
+///<para> delayem matritsu treugol'noy.</para>
+/// </summary>
 void solution() {
-	// delayem matritsu treugol'noy
 	for (i = 0; i < N - 1; i++)
 	{
 		for (j = i + 1; j < N; j++)
@@ -32,8 +38,10 @@ void solution() {
 	}
 }
 
+/// <summary>
+///<para> vyvodim treugol'nuyu matritsu.</para>
+/// </summary>
 void coutMat() {
-	//vyvodim treugol'nuyu matritsu
 
 	cout << "\n ---------------------------------\n";
 	cout << "\n Vyvodim treugol'nuyu matritsu:\n";
@@ -45,8 +53,11 @@ void coutMat() {
 	}
 }
 
+/// <summary>
+///<para> ishchem resheniya.</para>
+/// </summary>
+
 void searchRes() {
-	//ishchem resheniya
 
 	cout << "\n ---------------------------------\n";
 
@@ -59,8 +70,11 @@ void searchRes() {
 	}
 }
 
+/// <summary>
+///<para> vyvodim resheniya.</para>
+/// </summary>
+
 void coutRes() {
-	// vyvodim resheniya
 
 	cout << "Resheniye:" << endl;
 	for (i = 0; i < N; i++)
