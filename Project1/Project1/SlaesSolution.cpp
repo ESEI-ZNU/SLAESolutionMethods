@@ -36,10 +36,18 @@ int main()
 	switch (Solu)
 	{
 	case '1':
+		/// <summary>
+		///<para> This Function calls Cramers method.</para>
+	    ///<para> This Function output Final Matrix and determninator</para>
+		/// </summary>
 		main1();
 		Time(eleased_ms);
 		break;
 	case'2':
+		/// <summary>
+		///<para> This Function calls Gauss method.</para>
+		///<para> This Function calls the other functions of calculating</para>
+		/// </summary>
 		main2();
 		Time(eleased_ms);
 		break;
