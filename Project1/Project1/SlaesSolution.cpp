@@ -1,5 +1,5 @@
-#include"HeaderPam1.h"
-#include"HeaderPam.h"
+#include"Gauss.h"
+#include"Cramers.h"
 #include<iostream> //Підключення стандартної бібліотеки
 #include <chrono>
 using namespace std; //Підключення стандартного простору імен

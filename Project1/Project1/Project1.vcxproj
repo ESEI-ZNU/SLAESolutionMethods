@@ -142,8 +142,8 @@
     <ClCompile Include="SlaesSolution.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="HeaderPam.h" />
-    <ClInclude Include="HeaderPam1.h" />
+    <ClInclude Include="Cramers.h" />
+    <ClInclude Include="Gauss.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
