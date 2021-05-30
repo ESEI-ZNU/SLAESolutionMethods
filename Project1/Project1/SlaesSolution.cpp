@@ -1,8 +1,8 @@
 #include"Gauss.h"
 #include"Cramers.h"
-#include<iostream> //Підключення стандартної бібліотеки
-#include <chrono>
-using namespace std; //Підключення стандартного простору імен
+#include<iostream> /// include standartr Library
+#include <chrono>/// include time Library
+using namespace std; /// include Using namespace std
 
 
 /// <summary>
