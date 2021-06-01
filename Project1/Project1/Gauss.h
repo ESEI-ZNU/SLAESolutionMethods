@@ -1,14 +1,14 @@
 #include<iostream>
 #include<iomanip>
 #include<cmath>
-#define N 3
 using namespace std;
-float Matrix[N][N + 1], x[N];
+float Matrix[100][100], x[100];
 float temp, s;
 int i, j, k;
+int N = 0;
 
 /// <summary>
-///<para> vyvodim matritsu.</para>
+///<para> vyvodimx matritsu.</para>
 /// </summary>
 
 void cinMat() {
@@ -42,7 +42,7 @@ void solution() {
 ///<para> vyvodim treugol'nuyu matritsu.</para>
 /// </summary>
 void coutMat() {
-
+	
 	cout << "\n ---------------------------------\n";
 	cout << "\n Vyvodim treugol'nuyu matritsu:\n";
 	for (i = 0; i < N; i++)
@@ -78,12 +78,15 @@ void coutRes() {
 
 	cout << "Resheniye:" << endl;
 	for (i = 0; i < N; i++)
-		cout << "x[" << setw(3) << i + 1 << "]=" << setw(7) << setprecision(4) << x[i] << endl;
+		cout << "x[" << i + 1 << "]=" << setw(7) << setprecision(4) << x[i] << endl;
 }
 
 int main()
 {
 	setlocale(LC_ALL, "Russian");
+
+	cout << "Vvedite razmernost' matritsy : ";
+	cin >> N;
 
 	cinMat();
 
