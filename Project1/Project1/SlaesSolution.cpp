@@ -29,30 +29,39 @@ int main()
 	char Solu;
 	double eleased_ms;
 	eleased_ms = 0;
-	cout << "Solution Method 1-Cramers.2-Gaus.3-Matrixs(choose number)" << endl;
-	cin >> Solu;
+	char s;
+	s = 0;
+
 /// <summary>
 /// This switch case is responsible for choosing Solution method.
 /// </summary>
-	switch (Solu)
-	{
-	case '1':
-		/// <summary>
-		///<para> This Function calls Cramers method.</para>
-	    ///<para> This Function output Final Matrix and determninator</para>
-		/// </summary>
-		main1();
-		Time(eleased_ms);
-		break;
-	case'2':
-		/// <summary>
-		///<para> This Function calls Gauss method.</para>
-		///<para> This Function calls the other functions of calculating</para>
-		/// </summary>
-		main2();
-		Time(eleased_ms);
-		break;
-	}
+	do {
+		cout << "Solution Method 1-Cramers.2-Gaus.3-Matrixs(choose number)" << endl;
+		cin >> Solu;
+
+		switch (Solu)
+		{
+		case '1':
+			/// <summary>
+			///<para> This Function calls Cramers method.</para>
+			///<para> This Function output Final Matrix and determninator</para>
+			/// </summary>
+			main1();
+			Time(eleased_ms);
+			break;
+		case'2':
+			/// <summary>
+			///<para> This Function calls Gauss method.</para>
+			///<para> This Function calls the other functions of calculating</para>
+			/// </summary>
+			main2();
+			Time(eleased_ms);
+			break;
+			
+		}
+		cout << "Enter 66 for exit" << endl;
+		cin >> s;
+	} while (s = 66);
 	return 0;
 }
 
