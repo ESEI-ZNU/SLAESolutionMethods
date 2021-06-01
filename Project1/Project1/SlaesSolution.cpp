@@ -1,6 +1,7 @@
 #pragma once
 #include"Gauss.h"
 #include"Cramers.h"
+#include"Matrix.h"
 #include<iostream> /// include standartr Library
 #include <chrono>/// include time Library
 using namespace std; /// include Using namespace std
@@ -29,7 +30,7 @@ int main()
 	char Solu;
 	double eleased_ms;
 	eleased_ms = 0;
-	char s;
+	int s;
 	s = 0;
 
 /// <summary>
@@ -57,11 +58,19 @@ int main()
 			main2();
 			Time(eleased_ms);
 			break;
+		case'3':
+			/// <summary>
+			///<para> This Function calls Matrix method.</para>
+			///<para> This Function calls the other functions of calculating</para>
+			/// </summary>
+			main3();
+			Time(eleased_ms);
+			break;
 			
 		}
 		cout << "Enter 66 for exit" << endl;
 		cin >> s;
-	} while (s = 66);
+	} while (s != 66);
 	return 0;
 }
 
