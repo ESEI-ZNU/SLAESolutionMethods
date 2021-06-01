@@ -7,6 +7,9 @@ using namespace std;
 
 double Matrix[100][100], x[100];
 
+/// <summary>
+///<para> vyvodimx matritsu.</para>
+/// </summary>
 void cinMat(int N) {
 	cout << "Vvedite matritsu na " << N << " strochiki i " << N + 1 << " stolbtsa" << endl;
 	for (int i = 0; i < N; i++)
@@ -17,6 +20,9 @@ void cinMat(int N) {
 	}
 }
 
+/// <summary>
+///<para> delayem matritsu treugol'noy.</para>
+/// </summary>
 void solution(int N) {
 	double temp = 0;
 	for (int i = 0; i < N - 1; i++)
@@ -31,6 +37,9 @@ void solution(int N) {
 	}
 }
 
+/// <summary>
+///<para> vyvodim treugol'nuyu matritsu.</para>
+/// </summary>
 void coutMat(int N) {
 	cout << "\n ---------------------------------\n";
 	cout << "\n Vyvodim treugol'nuyu matritsu:\n";
@@ -42,6 +51,9 @@ void coutMat(int N) {
 	}
 }
 
+/// <summary>
+///<para> ishchem resheniya.</para>
+/// </summary>
 void searchRes(int N) {
 	cout << "\n ---------------------------------\n";
 	double s = 0;
@@ -54,7 +66,9 @@ void searchRes(int N) {
 	}
 }
 
-
+/// <summary>
+///<para> vyvodim resheniya.</para>
+/// </summary>
 void coutRes(int N) {
 	cout << "Resheniye:" << endl;
 	for (int i = 0; i < N; i++)
