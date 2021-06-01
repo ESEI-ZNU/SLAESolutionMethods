@@ -2,6 +2,10 @@
 #include<iostream>
 
 using namespace std;
+/// <summary>
+///<para>author:author Burlakov Artem</para>
+/// 
+/// </summary>
 
 int main3() {
     float determinant = 0;

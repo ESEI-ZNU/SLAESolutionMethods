@@ -14,6 +14,8 @@ using namespace std; /// include Using namespace std
 /// <summary>
 ///<para> This Function calculate Time.</para>
 /// </summary>
+
+
 int Time(double eleased_ms)
 {
 	auto begin = std::chrono::steady_clock::now();
@@ -21,7 +23,7 @@ int Time(double eleased_ms)
 	auto end = std::chrono::steady_clock::now();
 
 	auto elapsed_ms = std::chrono::duration_cast<std::chrono::milliseconds>(end - begin);
-	std::cout << "The time: " << elapsed_ms.count() << " ms\n";
+	std::cout << "The time: " << elapsed_ms.count() << " s\n";
 	return eleased_ms;
 }
 int main()
@@ -72,5 +74,6 @@ int main()
 		cin >> s;
 	} while (s != 66);
 	return 0;
+
 }
 

@@ -5,7 +5,10 @@
 
 using namespace std;
 
-double Matrix[100][100], x[100];
+double Matrix[100][100], x[100];\
+/// <summary>
+///<para>author:author Ñhistikov Vadim</para>
+/// </summary>
 
 /// <summary>
 ///<para> vyvodimx matritsu.</para>
