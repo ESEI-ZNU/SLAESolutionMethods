@@ -1,3 +1,4 @@
+#pragma once
 #include"Gauss.h"
 #include"Cramers.h"
 #include<iostream> //Підключення стандартної бібліотеки
